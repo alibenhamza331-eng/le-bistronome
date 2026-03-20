@@ -1,13 +1,13 @@
 const translations = {
   fr: {
     meta: {
-      title: "Le Bistronome Casablanca | Bistro Francais & Cuisine Europeenne"
+      title: "Le Bistronome Casablanca | Bistro Français & Cuisine Européenne"
     },
     brand: {
-      tagline: "Bistro francais - Casablanca"
+      tagline: "Bistro français - Casablanca"
     },
     nav: {
-      experience: "Experience",
+      experience: "Expérience",
       signature: "Signatures",
       menu: "Menu",
       gallery: "Galerie",
@@ -15,13 +15,13 @@ const translations = {
       contact: "Contact"
     },
     cta: {
-      call: "Reserver"
+      call: "Réserver"
     },
     hero: {
-      kicker: "Bistronomie de precision",
-      title: "Le Bistronome, une table francaise moderne au coeur de Casablanca.",
-      subtitle: "Cuisine de saison, produits soignes, service attentif et ambiance elegante pour dejeuners et diners memorables.",
-      discoverMenu: "Decouvrir la carte",
+      kicker: "Bistronomie de précision",
+      title: "Le Bistronome, une table française moderne au cœur de Casablanca.",
+      subtitle: "Cuisine de saison, produits soignés, service attentif et ambiance élégante pour des déjeuners et dîners mémorables.",
+      discoverMenu: "Découvrir la carte",
       openMap: "Ouvrir Google Maps"
     },
     metrics: {
@@ -30,50 +30,50 @@ const translations = {
       opening: "Lun-Sam"
     },
     signature: {
-      kicker: "Selection maison",
-      title: "Des assiettes nettes, genereuses et pleines de caractere",
+      kicker: "Sélection maison",
+      title: "Des assiettes nettes, généreuses et pleines de caractère",
       card1: {
-        title: "Entrees fraiches",
-        text: "Produits de saison, sauces equilibrees et texture precise."
+        title: "Entrées fraîches",
+        text: "Produits de saison, sauces équilibrées et texture précise."
       },
       card2: {
         title: "Cuissons lentes",
-        text: "Mijotes, viandes fondantes et accords classiques revisites."
+        text: "Mijotés, viandes fondantes et accords classiques revisités."
       },
       card3: {
         title: "Finales gourmandes",
-        text: "Desserts de chef et cafe gourmand pour terminer en finesse."
+        text: "Desserts de chef et café gourmand pour terminer en finesse."
       }
     },
     menu: {
-      kicker: "Carte complete",
+      kicker: "Carte complète",
       title: "Menu filtrable en direct",
-      subtitle: "Choisissez une categorie pour afficher uniquement ce qui vous interesse.",
-      empty: "Aucun plat dans cette categorie pour le moment."
+      subtitle: "Choisissez une catégorie pour afficher uniquement ce qui vous intéresse.",
+      empty: "Aucun plat dans cette catégorie pour le moment."
     },
     filters: {
       all: "Tout",
-      starters: "Entrees",
+      starters: "Entrées",
       mains: "Plats",
       desserts: "Desserts",
       drinks: "Drinks"
     },
     categories: {
-      starters: "Entree",
+      starters: "Entrée",
       mains: "Plat",
       desserts: "Dessert",
       drinks: "Boisson"
     },
     gallery: {
-      kicker: "Atmosphere",
-      title: "Une experience visuelle qui ouvre l'appetit",
-      c1: "Saumon fume, toasts croustillants",
-      c2: "Foie gras, touche sucree-salee",
-      c3: "Cafe espresso en finale",
+      kicker: "Ambiance",
+      title: "Une expérience visuelle qui ouvre l'appétit",
+      c1: "Saumon fumé, toasts croustillants",
+      c2: "Foie gras, touche sucrée-salée",
+      c3: "Café espresso en finale",
       c4: "Dessert framboise maison"
     },
     reviews: {
-      kicker: "Avis verifies",
+      kicker: "Avis vérifiés",
       title: "Ce que disent les clients",
       r1: {
         text: "First class French food filtered through a Moroccan sensibility. We tried the ceviche, the bavettes, and the vegetarian spaghetti. All excellent.",
@@ -87,17 +87,17 @@ const translations = {
       }
     },
     contact: {
-      kicker: "Reservation",
-      title: "Contact rapide et acces direct",
-      subtitle: "Appelez le restaurant ou ouvrez l'itineraire en un clic.",
+      kicker: "Réservation",
+      title: "Contact rapide et accès direct",
+      subtitle: "Appelez le restaurant ou ouvrez l'itinéraire en un clic.",
       addressLabel: "Adresse",
-      phoneLabel: "Telephone",
+      phoneLabel: "Téléphone",
       priceLabel: "Prix moyen",
-      route: "Voir l'itineraire"
+      route: "Voir l'itinéraire"
     },
     hours: {
       title: "Horaires",
-      closed: "Ferme"
+      closed: "Fermé"
     },
     days: {
       monday: "Lundi",
@@ -109,10 +109,10 @@ const translations = {
       sunday: "Dimanche"
     },
     footer: {
-      tagline: "Cuisine europeenne soignee, service premium et ambiance bistro chic.",
+      tagline: "Cuisine européenne soignée, service premium et ambiance bistro chic.",
       links: "Liens externes",
       contact: "Contact",
-      rights: "Tous droits reserves."
+      rights: "Tous droits réservés."
     }
   },
   en: {
@@ -354,12 +354,12 @@ const menuItems = [
     category: "starters",
     price: 75,
     title: {
-      fr: "Salade de jeunes legumes & oeuf fermier mollet",
+      fr: "Salade de jeunes légumes & œuf fermier mollet",
       en: "Young greens salad & soft farm egg",
       ar: "سلطة خضار صغيرة مع بيضة فلاحية طرية"
     },
     description: {
-      fr: "Une entree legere et de saison.",
+      fr: "Une entrée légère et de saison.",
       en: "A light, seasonal starter.",
       ar: "مقبل خفيف وموسمي."
     }
@@ -373,7 +373,7 @@ const menuItems = [
       ar: "سلطة إنديف مع الجوز والتفاح وجبن أوفيرن الأزرق"
     },
     description: {
-      fr: "Fraicheur, croquant et fromage de caractere.",
+      fr: "Fraîcheur, croquant et fromage de caractère.",
       en: "Fresh, crunchy and full-flavored cheese.",
       ar: "انتعاش وقرمشة مع جبن قوي النكهة."
     }
@@ -382,12 +382,12 @@ const menuItems = [
     category: "starters",
     price: 75,
     title: {
-      fr: "Hareng marine en salade",
+      fr: "Hareng mariné en salade",
       en: "Marinated herring salad",
       ar: "سلطة الرنجة المتبلة"
     },
     description: {
-      fr: "Marinade nette et assaisonnement precis.",
+      fr: "Marinade nette et assaisonnement précis.",
       en: "Clean marinade and precise seasoning.",
       ar: "تتبيل دقيق ونكهة متوازنة."
     }
@@ -396,12 +396,12 @@ const menuItems = [
     category: "starters",
     price: 95,
     title: {
-      fr: "Tartelette de sardine, puree d'herbes",
+      fr: "Tartelette de sardine, purée d'herbes",
       en: "Sardine tartlet with herb puree",
       ar: "تارتليت السردين مع هريس الأعشاب"
     },
     description: {
-      fr: "Un contraste fondant et vegetal.",
+      fr: "Un contraste fondant et végétal.",
       en: "A soft texture with herbal notes.",
       ar: "قوام ناعم ولمسة عشبية جميلة."
     }
@@ -410,12 +410,12 @@ const menuItems = [
     category: "starters",
     price: 150,
     title: {
-      fr: "Saumon fume et gingembre marine aux herbes",
+      fr: "Saumon fumé et gingembre mariné aux herbes",
       en: "Smoked salmon with herb-marinated ginger",
       ar: "سلمون مدخن مع زنجبيل متبل بالأعشاب"
     },
     description: {
-      fr: "Fume delicat et pointe tonique.",
+      fr: "Fumé délicat et pointe tonique.",
       en: "Delicate smoke and bright notes.",
       ar: "تدخين ناعم ولمسة منعشة."
     }
@@ -424,12 +424,12 @@ const menuItems = [
     category: "starters",
     price: 85,
     title: {
-      fr: "Veloute d'artichaut et huile de truffe",
+      fr: "Velouté d'artichaut et huile de truffe",
       en: "Artichoke veloute with truffle oil",
       ar: "شوربة خرشوف كريمية بزيت الترفاس"
     },
     description: {
-      fr: "Texture cremeuse et parfum elegant.",
+      fr: "Texture crémeuse et parfum élégant.",
       en: "Creamy texture with elegant aroma.",
       ar: "قوام كريمي ورائحة راقية."
     }
@@ -443,7 +443,7 @@ const menuItems = [
       ar: "كارباتشيو سمك مع الليمون والثوم المعمر وفلفل إسبليت"
     },
     description: {
-      fr: "Frais, iodé et parfaitement releve.",
+      fr: "Frais, iodé et parfaitement relevé.",
       en: "Fresh, iodized and nicely seasoned.",
       ar: "طازج بنكهة بحرية وتتبيل متوازن."
     }
@@ -457,7 +457,7 @@ const menuItems = [
       ar: "أربع أرجل ضفدع مع زبدة البقدونس"
     },
     description: {
-      fr: "Un classique bistro execute avec finesse.",
+      fr: "Un classique bistro exécuté avec finesse.",
       en: "A bistro classic done with finesse.",
       ar: "كلاسيكي بيسترو بلمسة دقيقة."
     }
@@ -466,12 +466,12 @@ const menuItems = [
     category: "starters",
     price: 115,
     title: {
-      fr: "Carpaccio de boeuf, champignons de Paris, roquette et parmesan",
+      fr: "Carpaccio de bœuf, champignons de Paris, roquette et parmesan",
       en: "Beef carpaccio, mushrooms, arugula and parmesan",
       ar: "كارباتشيو لحم بقري مع الفطر والجرجير والبارميزان"
     },
     description: {
-      fr: "Frais, sale, poivre, tres equilibre.",
+      fr: "Frais, salé, poivré, très équilibré.",
       en: "Fresh, savory and balanced.",
       ar: "طازج ومذاقه متوازن جدا."
     }
@@ -494,12 +494,12 @@ const menuItems = [
     category: "mains",
     price: 250,
     title: {
-      fr: "Lasagne de Saint-Jacques et crevettes, brocolis, beurre de crustaces",
+      fr: "Lasagne de Saint-Jacques et crevettes, brocolis, beurre de crustacés",
       en: "Scallop and shrimp lasagna, broccoli, shellfish butter",
       ar: "لازانيا سان جاك والروبيان مع بروكولي وزبدة القشريات"
     },
     description: {
-      fr: "Plat signature marin et genereux.",
+      fr: "Plat signature marin et généreux.",
       en: "Generous seafood signature dish.",
       ar: "طبق بحري مميز وغني."
     }
@@ -508,12 +508,12 @@ const menuItems = [
     category: "mains",
     price: 220,
     title: {
-      fr: "Medaillon de lotte au curry, riz basmati",
+      fr: "Médaillon de lotte au curry, riz basmati",
       en: "Monkfish medallion in curry sauce, basmati rice",
       ar: "ميداليون سمك الراهب بصلصة الكاري مع أرز بسمتي"
     },
     description: {
-      fr: "Epices douces et cuisson precise.",
+      fr: "Épices douces et cuisson précise.",
       en: "Mild spices with precise cooking.",
       ar: "بهارات متوازنة وطهي دقيق."
     }
@@ -522,12 +522,12 @@ const menuItems = [
     category: "mains",
     price: 215,
     title: {
-      fr: "Filet de pageot grille, pommes concassees, basilic, legumes de saison",
+      fr: "Filet de pageot grillé, pommes concassées, basilic, légumes de saison",
       en: "Grilled sea bream fillet, crushed potatoes, basil, seasonal vegetables",
       ar: "فيليه سمك مشوي مع بطاطس مهروسة وخضار موسمية"
     },
     description: {
-      fr: "Un plat net et vegetal.",
+      fr: "Un plat net et végétal.",
       en: "A clean and vegetal plate.",
       ar: "طبق متوازن بطابع نباتي جميل."
     }
@@ -536,12 +536,12 @@ const menuItems = [
     category: "mains",
     price: 115,
     title: {
-      fr: "Spaghettis vegetariens notes epicees",
+      fr: "Spaghettis végétariens, notes épicées",
       en: "Vegetarian spaghetti with spicy notes",
       ar: "سباغيتي نباتية بلمسات حارة"
     },
     description: {
-      fr: "Option vegetarienne savoureuse.",
+      fr: "Option végétarienne savoureuse.",
       en: "Flavorful vegetarian option.",
       ar: "خيار نباتي غني بالنكهة."
     }
@@ -550,12 +550,12 @@ const menuItems = [
     category: "mains",
     price: 220,
     title: {
-      fr: "Parmentier de jarret de boeuf ou foie gras",
+      fr: "Parmentier de jarret de bœuf ou foie gras",
       en: "Beef shank parmentier with foie gras option",
       ar: "بارمنتييه ساق البقر مع خيار فوا غرا"
     },
     description: {
-      fr: "Confort food version bistronomique.",
+      fr: "Version bistronomique réconfortante.",
       en: "Bistronomic comfort food.",
       ar: "نسخة فاخرة من الأكل المريح."
     }
@@ -564,7 +564,7 @@ const menuItems = [
     category: "mains",
     price: 195,
     title: {
-      fr: "Gigot d'agneau confit, jus de cuisson et legumes rotis",
+      fr: "Gigot d'agneau confit, jus de cuisson et légumes rôtis",
       en: "Confit lamb leg, roasting juice and roasted vegetables",
       ar: "فخذ غنم مطهو ببطء مع صلصة التحميص وخضار مشوية"
     },
@@ -578,12 +578,12 @@ const menuItems = [
     category: "mains",
     price: 185,
     title: {
-      fr: "Tartare de boeuf, salade verte, frites maison",
+      fr: "Tartare de bœuf, salade verte, frites maison",
       en: "Beef tartare, green salad and homemade fries",
       ar: "تارتار لحم بقري مع سلطة خضراء وبطاطس منزلية"
     },
     description: {
-      fr: "Classique adore des habitués.",
+      fr: "Classique adoré des habitués.",
       en: "A classic loved by regulars.",
       ar: "كلاسيكي محبوب لدى الزبائن الدائمين."
     }
@@ -592,12 +592,12 @@ const menuItems = [
     category: "mains",
     price: 250,
     title: {
-      fr: "Supreme de veau farci aux cepes, beurre au cognac, creme legere",
+      fr: "Suprême de veau farci aux cèpes, beurre au cognac, crème légère",
       en: "Stuffed veal supreme with porcini, cognac butter and light cream",
       ar: "صدر عجل محشي بالفطر مع زبدة الكونياك وكريمة خفيفة"
     },
     description: {
-      fr: "Plat riche et raffine.",
+      fr: "Plat riche et raffiné.",
       en: "Rich and refined dish.",
       ar: "طبق غني وأنيق."
     }
@@ -606,7 +606,7 @@ const menuItems = [
     category: "mains",
     price: 195,
     title: {
-      fr: "Bavette grillee, sauce echalote vin rouge, pommes sautees a l'ail",
+      fr: "Bavette grillée, sauce échalote vin rouge, pommes sautées à l'ail",
       en: "Grilled flank steak, shallot red-wine sauce, garlic sauteed potatoes",
       ar: "بافيت مشوية مع صلصة الكراث والنبيذ الأحمر وبطاطس بالثوم"
     },
@@ -625,7 +625,7 @@ const menuItems = [
       ar: "ميلفوي توت العليق المنزلي"
     },
     description: {
-      fr: "Creme legere et fruits rouges.",
+      fr: "Crème légère et fruits rouges.",
       en: "Light cream and red berries.",
       ar: "كريمة خفيفة وفواكه حمراء."
     }
@@ -648,12 +648,12 @@ const menuItems = [
     category: "desserts",
     price: 65,
     title: {
-      fr: "Cafe gourmand Bistronome",
+      fr: "Café gourmand Bistronome",
       en: "Bistronome gourmet coffee",
       ar: "قهوة غورمان من بيسترونوم"
     },
     description: {
-      fr: "Selection de douceurs du jour.",
+      fr: "Sélection de douceurs du jour.",
       en: "Selection of daily mini desserts.",
       ar: "تشكيلة حلويات صغيرة حسب اليوم."
     }
@@ -676,7 +676,7 @@ const menuItems = [
     category: "drinks",
     price: 30,
     title: {
-      fr: "The a la menthe fraiche",
+      fr: "Thé à la menthe fraîche",
       en: "Fresh mint tea",
       ar: "شاي بالنعناع الطازج"
     },
@@ -690,12 +690,12 @@ const menuItems = [
     category: "drinks",
     price: 20,
     title: {
-      fr: "Eau minerale",
+      fr: "Eau minérale",
       en: "Mineral water",
       ar: "ماء معدني"
     },
     description: {
-      fr: "Plate ou gazeuse selon preference.",
+      fr: "Plate ou gazeuse selon préférence.",
       en: "Still or sparkling water.",
       ar: "ماء عادي أو غازي حسب الرغبة."
     }
@@ -709,7 +709,7 @@ const menuItems = [
       ar: "كأس نبيذ مختار لليوم"
     },
     description: {
-      fr: "Selection en accord avec les plats.",
+      fr: "Sélection en accord avec les plats.",
       en: "Selection matching the dishes.",
       ar: "اختيار مناسب للأطباق."
     }
@@ -948,6 +948,10 @@ function setupParticles() {
     return;
   }
 
+  if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+    return;
+  }
+
   let width = window.innerWidth;
   let height = window.innerHeight;
   let dpr = Math.min(window.devicePixelRatio || 1, 2);
@@ -957,19 +961,9 @@ function setupParticles() {
     y: height / 2,
     active: false
   };
+  let lastPointerMoveAt = 0;
 
-  const createParticles = () => {
-    const count = Math.min(90, Math.max(45, Math.floor(width / 22)));
-    particles = Array.from({ length: count }, () => ({
-      x: Math.random() * width,
-      y: Math.random() * height,
-      z: 0.35 + Math.random() * 1.2,
-      vx: (Math.random() - 0.5) * 0.32,
-      vy: (Math.random() - 0.5) * 0.32
-    }));
-  };
-
-  const resize = () => {
+  const setCanvasSize = () => {
     width = window.innerWidth;
     height = window.innerHeight;
     dpr = Math.min(window.devicePixelRatio || 1, 2);
@@ -979,25 +973,60 @@ function setupParticles() {
     canvas.style.width = `${width}px`;
     canvas.style.height = `${height}px`;
     context.setTransform(dpr, 0, 0, dpr, 0, 0);
+  };
 
+  const createParticles = () => {
+    const count = Math.min(90, Math.max(45, Math.floor(width / 22)));
+    particles = Array.from({ length: count }, () => ({
+      x: Math.random() * width,
+      y: Math.random() * height,
+      z: 0.35 + Math.random() * 1.2,
+      vx: (Math.random() - 0.5) * 0.32,
+      vy: (Math.random() - 0.5) * 0.32,
+      orbitAngle: Math.random() * Math.PI * 2,
+      orbitSpeed: 0.01 + Math.random() * 0.02,
+      orbitRadius: 16 + Math.random() * 72
+    }));
+  };
+
+  const resize = () => {
+    setCanvasSize();
     createParticles();
   };
 
   const animate = () => {
+    const now = performance.now();
+    const pointerIsActive = pointer.active && now - lastPointerMoveAt < 140;
     context.clearRect(0, 0, width, height);
 
     for (let index = 0; index < particles.length; index += 1) {
       const particle = particles[index];
 
-      if (pointer.active) {
-        const deltaX = (pointer.x - particle.x) * 0.00021;
-        const deltaY = (pointer.y - particle.y) * 0.00021;
-        particle.vx += deltaX;
-        particle.vy += deltaY;
-      }
+      const spinFactor = pointerIsActive ? 1 : 0.45;
+      const attractForce = pointerIsActive ? 0.00021 : 0.00014;
+      const swirlForce = pointerIsActive ? 0.00008 : 0.00005;
 
-      particle.vx *= 0.992;
-      particle.vy *= 0.992;
+      particle.orbitAngle += particle.orbitSpeed * spinFactor;
+
+      const targetX = pointer.x + Math.cos(particle.orbitAngle) * particle.orbitRadius;
+      const targetY = pointer.y + Math.sin(particle.orbitAngle) * particle.orbitRadius;
+      const deltaX = (targetX - particle.x) * attractForce;
+      const deltaY = (targetY - particle.y) * attractForce;
+      const swirlX = Math.cos(particle.orbitAngle + Math.PI / 2) * swirlForce * particle.orbitRadius;
+      const swirlY = Math.sin(particle.orbitAngle + Math.PI / 2) * swirlForce * particle.orbitRadius;
+
+      particle.vx += deltaX + swirlX;
+      particle.vy += deltaY + swirlY;
+
+      particle.vx *= pointerIsActive ? 0.992 : 0.985;
+      particle.vy *= pointerIsActive ? 0.992 : 0.985;
+
+      const speed = Math.hypot(particle.vx, particle.vy);
+      const maxSpeed = pointerIsActive ? 1.8 : 1.05;
+      if (speed > maxSpeed) {
+        particle.vx = (particle.vx / speed) * maxSpeed;
+        particle.vy = (particle.vy / speed) * maxSpeed;
+      }
 
       particle.x += particle.vx * particle.z;
       particle.y += particle.vy * particle.z;
@@ -1038,8 +1067,12 @@ function setupParticles() {
     requestAnimationFrame(animate);
   };
 
+  resize();
+  animate();
+
   window.addEventListener("mousemove", (event) => {
     pointer.active = true;
+    lastPointerMoveAt = performance.now();
     pointer.x = event.clientX;
     pointer.y = event.clientY;
   });
@@ -1049,18 +1082,22 @@ function setupParticles() {
       return;
     }
     pointer.active = true;
+    lastPointerMoveAt = performance.now();
     pointer.x = event.touches[0].clientX;
     pointer.y = event.touches[0].clientY;
+  }, { passive: true });
+
+  window.addEventListener("touchend", () => {
+    pointer.active = false;
   }, { passive: true });
 
   window.addEventListener("mouseout", () => {
     pointer.active = false;
   });
 
-  window.addEventListener("resize", resize);
-
-  resize();
-  animate();
+  window.addEventListener("resize", () => {
+    resize();
+  });
 }
 
 setupNavigation();

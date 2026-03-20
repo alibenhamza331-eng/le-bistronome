@@ -19,6 +19,9 @@
 
 html {
   scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  overflow-x: hidden;
 }
 
 body {
@@ -31,6 +34,7 @@ body {
     radial-gradient(circle at 90% 5%, rgba(171, 169, 79, 0.2) 0%, transparent 48%),
     linear-gradient(165deg, #f8f6ef 0%, #f1f4ea 45%, #f8f7f2 100%);
   line-height: 1.55;
+  overflow-x: hidden;
 }
 
 body::before {
@@ -78,18 +82,30 @@ a {
 }
 
 .skip-link {
-  position: absolute;
-  left: -999px;
+  position: fixed;
+  inset-inline-start: 12px;
   top: 10px;
   z-index: 200;
   background: #000;
   color: #fff;
   padding: 0.45rem 0.75rem;
   border-radius: 8px;
+  transform: translateY(-220%);
+  opacity: 0;
+  pointer-events: none;
+  transition: transform 0.2s ease, opacity 0.2s ease;
 }
 
 .skip-link:focus {
-  left: 12px;
+  transform: translateY(0);
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.skip-link:focus:not(:focus-visible) {
+  transform: translateY(-220%);
+  opacity: 0;
+  pointer-events: none;
 }
 
 .topbar {
@@ -279,6 +295,10 @@ body.nav-open .menu-toggle span:nth-child(3) {
   margin-top: 2.6rem;
 }
 
+.hero > * {
+  min-width: 0;
+}
+
 .eyebrow {
   display: inline-flex;
   margin: 0 0 0.35rem;
@@ -393,6 +413,7 @@ body.nav-open .menu-toggle span:nth-child(3) {
   align-items: flex-start;
   gap: 0.65rem;
   padding: 0.7rem 0.8rem;
+  min-width: 0;
 }
 
 .floating-info strong {
@@ -404,6 +425,7 @@ body.nav-open .menu-toggle span:nth-child(3) {
   margin: 0.1rem 0 0;
   color: var(--muted);
   font-size: 0.8rem;
+  overflow-wrap: anywhere;
 }
 
 .section-head {
@@ -653,6 +675,10 @@ body.nav-open .menu-toggle span:nth-child(3) {
   gap: 1rem;
 }
 
+.contact-grid > * {
+  min-width: 0;
+}
+
 .contact-card,
 .hours-card {
   border: 1px solid var(--line);
@@ -810,7 +836,7 @@ html[dir="rtl"] .menu-filters {
 }
 
 html[dir="rtl"] .floating-info {
-  left: auto;
+  left: 1rem;
   right: 1rem;
 }
 
