@@ -1,0 +1,364 @@
+<!doctype html>
+<html lang="fr" dir="ltr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Le Bistronome Casablanca | Bistro Francais & Cuisine Europeenne</title>
+  <meta name="description" content="Le Bistronome a Casablanca: bistro francais raffine, carte de saison, ambiance elegante, reservation rapide et acces Google Maps direct." />
+  <meta name="keywords" content="Le Bistronome, restaurant Casablanca, bistro francais, cuisine europeenne, menu Casablanca, Bd Rachidi" />
+  <meta name="robots" content="index, follow, max-image-preview:large" />
+  <meta name="author" content="Le Bistronome" />
+  <meta name="theme-color" content="#f4f1e6" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Le Bistronome Casablanca" />
+  <meta property="og:description" content="Cuisine bistronomique francaise a Casablanca. Carte filtrable, horaires, avis et reservation." />
+  <meta property="og:image" content="assets/baniere.png" />
+  <meta property="og:locale" content="fr_MA" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Le Bistronome Casablanca" />
+  <meta name="twitter:description" content="Bistro francais moderne a Casablanca avec cuisine de caractere et service premium." />
+  <meta name="twitter:image" content="assets/baniere.png" />
+
+  <link rel="icon" href="assets/logo.png" type="image/png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:wght@500;600;700;800&family=Tajawal:wght@400;500;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Restaurant",
+    "name": "Le Bistronome",
+    "image": [
+      "assets/baniere.png",
+      "assets/logo.png"
+    ],
+    "description": "Bistro francais a Casablanca avec carte de saison et ambiance elegante.",
+    "telephone": "+212522266160",
+    "priceRange": "MAD 400-450",
+    "servesCuisine": ["French", "European", "Bistronomy"],
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "H9VF+69P, Bd Rachidi",
+      "addressLocality": "Casablanca",
+      "postalCode": "20100",
+      "addressCountry": "MA"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 33.5930889,
+      "longitude": -7.6265524
+    },
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+        "opens": "12:30",
+        "closes": "23:00"
+      }
+    ],
+    "sameAs": [
+      "https://www.facebook.com/LeBistronomeCasa/?locale=fr_FR",
+      "https://www.google.com/maps/place/Le+Bistronome/@33.5930933,-7.6291273,17z/data=!3m1!4b1!4m6!3m5!1s0xda7d29a2f1e7a9b:0x80336c5f433f3a31!8m2!3d33.5930889!4d-7.6265524!16s%2Fg%2F11b6jh34z_",
+      "https://alibenhamza331-eng.github.io/alibenhamza-dev"
+    ]
+  }
+  </script>
+</head>
+<body>
+  <canvas id="particle-canvas" aria-hidden="true"></canvas>
+
+  <a class="skip-link" href="#main-content">Passer au contenu</a>
+
+  <header class="topbar" id="top">
+    <a class="brand" href="#top" aria-label="Le Bistronome">
+      <img src="assets/logo.png" alt="Logo du restaurant Le Bistronome" width="64" height="64" loading="eager" />
+      <span class="brand-copy">
+        <strong>Le Bistronome</strong>
+        <small data-i18n="brand.tagline">Bistro francais - Casablanca</small>
+      </span>
+    </a>
+
+    <button class="menu-toggle" id="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav">
+      <span></span><span></span><span></span>
+      <span class="sr-only">Menu</span>
+    </button>
+
+    <nav class="nav-links" id="main-nav" aria-label="Navigation principale">
+      <a href="#experience" data-i18n="nav.experience">Experience</a>
+      <a href="#signature" data-i18n="nav.signature">Signatures</a>
+      <a href="#menu" data-i18n="nav.menu">Menu</a>
+      <a href="#galerie" data-i18n="nav.gallery">Galerie</a>
+      <a href="#avis" data-i18n="nav.reviews">Avis</a>
+      <a href="#contact" data-i18n="nav.contact">Contact</a>
+    </nav>
+
+    <div class="head-actions">
+      <div class="lang-switch" aria-label="Choix de langue">
+        <button class="lang-btn is-active" type="button" data-lang="fr">FR</button>
+        <button class="lang-btn" type="button" data-lang="en">EN</button>
+        <button class="lang-btn" type="button" data-lang="ar">AR</button>
+      </div>
+      <a class="call-btn" href="tel:0522266160" data-i18n="cta.call">Reserver</a>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section class="hero section" id="experience">
+      <div class="hero-content" data-animate>
+        <p class="eyebrow" data-i18n="hero.kicker">Bistronomie de precision</p>
+        <h1 data-i18n="hero.title">Le Bistronome, une table francaise moderne au coeur de Casablanca.</h1>
+        <p class="hero-text" data-i18n="hero.subtitle">
+          Cuisine de saison, produits soignes, service attentif et ambiance elegante pour dejeuners et diners memorables.
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#menu" data-i18n="hero.discoverMenu">Decouvrir la carte</a>
+          <a class="btn btn-ghost" target="_blank" rel="noopener noreferrer" href="https://www.google.com/maps/place/Le+Bistronome/@33.5930933,-7.6291273,17z/data=!3m1!4b1!4m6!3m5!1s0xda7d29a2f1e7a9b:0x80336c5f433f3a31!8m2!3d33.5930889!4d-7.6265524!16s%2Fg%2F11b6jh34z_?entry=ttu&g_ep=EgoyMDI2MDMxNy4wIKXMDSoASAFQAw%3D%3D">
+            <span data-i18n="hero.openMap">Ouvrir Google Maps</span>
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" aria-hidden="true"><path d="M384 64C366.3 64 352 78.3 352 96C352 113.7 366.3 128 384 128L466.7 128L265.3 329.4C252.8 341.9 252.8 362.2 265.3 374.7C277.8 387.2 298.1 387.2 310.6 374.7L512 173.3L512 256C512 273.7 526.3 288 544 288C561.7 288 576 273.7 576 256L576 96C576 78.3 561.7 64 544 64L384 64zM144 160C99.8 160 64 195.8 64 240L64 496C64 540.2 99.8 576 144 576L400 576C444.2 576 480 540.2 480 496L480 416C480 398.3 465.7 384 448 384C430.3 384 416 398.3 416 416L416 496C416 504.8 408.8 512 400 512L144 512C135.2 512 128 504.8 128 496L128 240C128 231.2 135.2 224 144 224L224 224C241.7 224 256 209.7 256 192C256 174.3 241.7 160 224 160L144 160z"/></svg>
+          </a>
+        </div>
+
+        <ul class="hero-metrics">
+          <li>
+            <strong>4.9/5</strong>
+            <span data-i18n="metrics.rating">Satisfaction client</span>
+          </li>
+          <li>
+            <strong>MAD 400-450</strong>
+            <span data-i18n="metrics.price">Budget moyen / personne</span>
+          </li>
+          <li>
+            <strong>12:30 - 23:00</strong>
+            <span data-i18n="metrics.opening">Lun-Sam</span>
+          </li>
+        </ul>
+      </div>
+
+      <div class="hero-media" data-animate>
+        <img class="hero-banner" src="assets/baniere.png" alt="Banniere Le Bistronome a Casablanca" width="702" height="330" loading="eager" />
+        <div class="floating-info">
+          <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" aria-hidden="true"><path d="M128 252.6C128 148.4 214 64 320 64C426 64 512 148.4 512 252.6C512 371.9 391.8 514.9 341.6 569.4C329.8 582.2 310.1 582.2 298.3 569.4C248.1 514.9 127.9 371.9 127.9 252.6zM320 320C355.3 320 384 291.3 384 256C384 220.7 355.3 192 320 192C284.7 192 256 220.7 256 256C256 291.3 284.7 320 320 320z"/></svg>
+          <div>
+            <strong data-i18n="contact.addressLabel">Adresse</strong>
+            <p>H9VF+69P, Bd Rachidi, Casablanca 20100</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section signature" id="signature">
+      <div class="section-head" data-animate>
+        <p class="eyebrow" data-i18n="signature.kicker">Selection maison</p>
+        <h2 data-i18n="signature.title">Des assiettes nettes, genereuses et pleines de caractere</h2>
+      </div>
+
+      <div class="signature-grid">
+        <article class="signature-card" data-animate>
+          <img src="assets/photo-salade.png" alt="Salade et poisson marine" loading="lazy" width="893" height="689" />
+          <h3 data-i18n="signature.card1.title">Entrees fraiches</h3>
+          <p data-i18n="signature.card1.text">Produits de saison, sauces equilibrees et texture precise.</p>
+        </article>
+
+        <article class="signature-card" data-animate>
+          <img src="assets/photo-boeuf.png" alt="Plat de boeuf mijote" loading="lazy" width="790" height="678" />
+          <h3 data-i18n="signature.card2.title">Cuissons lentes</h3>
+          <p data-i18n="signature.card2.text">Mijotes, viandes fondantes et accords classiques revisites.</p>
+        </article>
+
+        <article class="signature-card" data-animate>
+          <img src="assets/photo-dessert.png" alt="Dessert framboise" loading="lazy" width="523" height="636" />
+          <h3 data-i18n="signature.card3.title">Finales gourmandes</h3>
+          <p data-i18n="signature.card3.text">Desserts de chef et cafe gourmand pour terminer en finesse.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section menu-section" id="menu">
+      <div class="section-head" data-animate>
+        <p class="eyebrow" data-i18n="menu.kicker">Carte complete</p>
+        <h2 data-i18n="menu.title">Menu filtrable en direct</h2>
+        <p data-i18n="menu.subtitle">Choisissez une categorie pour afficher uniquement ce qui vous interesse.</p>
+      </div>
+
+      <div class="menu-filters" role="tablist" aria-label="Filtres du menu" data-animate>
+        <button class="filter-btn is-active" type="button" data-filter="all" data-i18n="filters.all">Tout</button>
+        <button class="filter-btn" type="button" data-filter="starters" data-i18n="filters.starters">Entrees</button>
+        <button class="filter-btn" type="button" data-filter="mains" data-i18n="filters.mains">Plats</button>
+        <button class="filter-btn" type="button" data-filter="desserts" data-i18n="filters.desserts">Desserts</button>
+        <button class="filter-btn" type="button" data-filter="drinks" data-i18n="filters.drinks">Drinks</button>
+      </div>
+
+      <div id="menu-grid" class="menu-grid" aria-live="polite"></div>
+    </section>
+
+    <section class="section gallery-section" id="galerie">
+      <div class="section-head" data-animate>
+        <p class="eyebrow" data-i18n="gallery.kicker">Atmosphere</p>
+        <h2 data-i18n="gallery.title">Une experience visuelle qui ouvre l'appetit</h2>
+      </div>
+
+      <div class="gallery-grid">
+        <figure class="gallery-item wide" data-animate>
+          <img src="assets/photo-saumon.png" alt="Saumon fume et toast" loading="lazy" width="654" height="648" />
+          <figcaption data-i18n="gallery.c1">Saumon fume, toasts croustillants</figcaption>
+        </figure>
+
+        <figure class="gallery-item" data-animate>
+          <img src="assets/photo-foiegras.png" alt="Foie gras et macaron" loading="lazy" width="684" height="471" />
+          <figcaption data-i18n="gallery.c2">Foie gras, touche sucree-salee</figcaption>
+        </figure>
+
+        <figure class="gallery-item" data-animate>
+          <img src="assets/photo-espresso.png" alt="Cafe espresso" loading="lazy" width="411" height="371" />
+          <figcaption data-i18n="gallery.c3">Cafe espresso en finale</figcaption>
+        </figure>
+
+        <figure class="gallery-item tall" data-animate>
+          <img src="assets/photo-dessert.png" alt="Dessert framboise" loading="lazy" width="523" height="636" />
+          <figcaption data-i18n="gallery.c4">Dessert framboise maison</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="section reviews-section" id="avis">
+      <div class="section-head" data-animate>
+        <p class="eyebrow" data-i18n="reviews.kicker">Avis verifies</p>
+        <h2 data-i18n="reviews.title">Ce que disent les clients</h2>
+      </div>
+
+      <div class="review-grid">
+        <article class="review-card" data-animate>
+          <p class="review-text" data-i18n="reviews.r1.text">
+            First class French food filtered through a Moroccan sensibility. We tried the ceviche, the bavettes, and the vegetarian spaghetti. All excellent.
+          </p>
+          <div class="review-meta">
+            <strong data-i18n="reviews.r1.author">Client Google</strong>
+            <span data-i18n="reviews.r1.meta">Food 5 - Service 5 - Atmosphere 5</span>
+          </div>
+        </article>
+
+        <article class="review-card" data-animate>
+          <p class="review-text" data-i18n="reviews.r2.text">
+            Cozy French bistro, flavor and friendly team from waiter to owner. Great if you enjoy a lively atmosphere.
+          </p>
+          <div class="review-meta">
+            <strong data-i18n="reviews.r2.author">Visiteur international</strong>
+            <span data-i18n="reviews.r2.meta">Ambiance chaleureuse - Service attentif</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="contact-grid">
+        <article class="contact-card" data-animate>
+          <p class="eyebrow" data-i18n="contact.kicker">Reservation</p>
+          <h2 data-i18n="contact.title">Contact rapide et acces direct</h2>
+          <p data-i18n="contact.subtitle">Appelez le restaurant ou ouvrez l'itineraire en un clic.</p>
+
+          <ul class="contact-list">
+            <li>
+              <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" aria-hidden="true"><path d="M128 252.6C128 148.4 214 64 320 64C426 64 512 148.4 512 252.6C512 371.9 391.8 514.9 341.6 569.4C329.8 582.2 310.1 582.2 298.3 569.4C248.1 514.9 127.9 371.9 127.9 252.6zM320 320C355.3 320 384 291.3 384 256C384 220.7 355.3 192 320 192C284.7 192 256 220.7 256 256C256 291.3 284.7 320 320 320z"/></svg>
+              <div>
+                <strong data-i18n="contact.addressLabel">Adresse</strong>
+                <p>H9VF+69P, Bd Rachidi, Casablanca 20100</p>
+              </div>
+            </li>
+
+            <li>
+              <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" aria-hidden="true"><path d="M224 96C206.3 96 192 110.3 192 128C192 145.7 206.3 160 224 160L416 160C433.7 160 448 145.7 448 128C448 110.3 433.7 96 416 96L224 96zM120.8 176C100.5 176 84.8 193.6 89.2 213.4L145.8 468.3C153.6 503.5 184.8 528.6 220.9 528.6L419.2 528.6C455.3 528.6 486.5 503.5 494.3 468.3L550.9 213.4C555.3 193.6 539.6 176 519.3 176L120.8 176z"/></svg>
+              <div>
+                <strong data-i18n="contact.phoneLabel">Telephone</strong>
+                <p><a href="tel:0522266160">05 22 26 61 60</a></p>
+              </div>
+            </li>
+
+            <li>
+              <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" aria-hidden="true"><path d="M320 64C178.6 64 64 178.6 64 320C64 461.4 178.6 576 320 576C461.4 576 576 461.4 576 320C576 178.6 461.4 64 320 64zM312 176C334.1 176 352 193.9 352 216L352 304L416 304C438.1 304 456 321.9 456 344C456 366.1 438.1 384 416 384L320 384C297.9 384 280 366.1 280 344L280 216C280 193.9 297.9 176 320 176z"/></svg>
+              <div>
+                <strong data-i18n="contact.priceLabel">Prix moyen</strong>
+                <p>MAD 400 - 450 / personne</p>
+              </div>
+            </li>
+          </ul>
+
+          <a class="btn btn-primary" href="https://www.google.com/maps/place/Le+Bistronome/@33.5930933,-7.6291273,17z/data=!3m1!4b1!4m6!3m5!1s0xda7d29a2f1e7a9b:0x80336c5f433f3a31!8m2!3d33.5930889!4d-7.6265524!16s%2Fg%2F11b6jh34z_?entry=ttu&g_ep=EgoyMDI2MDMxNy4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener noreferrer">
+            <span data-i18n="contact.route">Voir l'itineraire</span>
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" aria-hidden="true"><path d="M384 64C366.3 64 352 78.3 352 96C352 113.7 366.3 128 384 128L466.7 128L265.3 329.4C252.8 341.9 252.8 362.2 265.3 374.7C277.8 387.2 298.1 387.2 310.6 374.7L512 173.3L512 256C512 273.7 526.3 288 544 288C561.7 288 576 273.7 576 256L576 96C576 78.3 561.7 64 544 64L384 64zM144 160C99.8 160 64 195.8 64 240L64 496C64 540.2 99.8 576 144 576L400 576C444.2 576 480 540.2 480 496L480 416C480 398.3 465.7 384 448 384C430.3 384 416 398.3 416 416L416 496C416 504.8 408.8 512 400 512L144 512C135.2 512 128 504.8 128 496L128 240C128 231.2 135.2 224 144 224L224 224C241.7 224 256 209.7 256 192C256 174.3 241.7 160 224 160L144 160z"/></svg>
+          </a>
+        </article>
+
+        <article class="hours-card" data-animate>
+          <h3 data-i18n="hours.title">Horaires</h3>
+          <table class="hours-table" aria-label="Horaires d'ouverture">
+            <tbody>
+              <tr><th data-day="monday">Lundi</th><td>12:30 - 23:00</td></tr>
+              <tr><th data-day="tuesday">Mardi</th><td>12:30 - 23:00</td></tr>
+              <tr><th data-day="wednesday">Mercredi</th><td>12:30 - 23:00</td></tr>
+              <tr><th data-day="thursday">Jeudi</th><td>12:30 - 23:00</td></tr>
+              <tr><th data-day="friday">Vendredi</th><td>12:30 - 23:00</td></tr>
+              <tr><th data-day="saturday">Samedi</th><td>12:30 - 23:00</td></tr>
+              <tr><th data-day="sunday">Dimanche</th><td data-i18n="hours.closed">Ferme</td></tr>
+            </tbody>
+          </table>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-grid">
+      <div>
+        <h3>Le Bistronome</h3>
+        <p data-i18n="footer.tagline">Cuisine europeenne soignee, service premium et ambiance bistro chic.</p>
+      </div>
+
+      <div>
+        <h4 data-i18n="footer.links">Liens externes</h4>
+        <ul class="footer-links">
+          <li>
+            <a href="https://www.facebook.com/LeBistronomeCasa/?locale=fr_FR" target="_blank" rel="noopener noreferrer">
+              <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" aria-hidden="true"><path d="M576 320C576 178.6 461.4 64 320 64C178.6 64 64 178.6 64 320C64 440 146.7 540.8 258.2 568.5L258.2 398.2L205.4 398.2L205.4 320L258.2 320L258.2 286.3C258.2 199.2 297.6 158.8 383.2 158.8C399.4 158.8 427.4 162 438.9 165.2L438.9 236C432.9 235.4 422.4 235 409.3 235C367.3 235 351.1 250.9 351.1 292.2L351.1 320L434.7 320L420.3 398.2L351 398.2L351 574.1C477.8 558.8 576 450.9 576 320z"/></svg>
+              Facebook
+            </a>
+          </li>
+          <li>
+            <a href="https://www.google.com/maps/place/Le+Bistronome/@33.5930933,-7.6291273,17z/data=!3m1!4b1!4m6!3m5!1s0xda7d29a2f1e7a9b:0x80336c5f433f3a31!8m2!3d33.5930889!4d-7.6265524!16s%2Fg%2F11b6jh34z_?entry=ttu&g_ep=EgoyMDI2MDMxNy4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener noreferrer">
+              <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" aria-hidden="true"><path d="M128 252.6C128 148.4 214 64 320 64C426 64 512 148.4 512 252.6C512 371.9 391.8 514.9 341.6 569.4C329.8 582.2 310.1 582.2 298.3 569.4C248.1 514.9 127.9 371.9 127.9 252.6zM320 320C355.3 320 384 291.3 384 256C384 220.7 355.3 192 320 192C284.7 192 256 220.7 256 256C256 291.3 284.7 320 320 320z"/></svg>
+              Google Maps
+            </a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
+              <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" aria-hidden="true"><path d="M320.3 205C256.8 204.8 205.2 256.2 205 319.7C204.8 383.2 256.2 434.8 319.7 435C383.2 435.2 434.8 383.8 435 320.3C435.2 256.8 383.8 205.2 320.3 205zM319.7 245.4C360.9 245.2 394.4 278.5 394.6 319.7C394.8 360.9 361.5 394.4 320.3 394.6C279.1 394.8 245.6 361.5 245.4 320.3C245.2 279.1 278.5 245.6 319.7 245.4zM413.1 200.3C413.1 185.5 425.1 173.5 439.9 173.5C454.7 173.5 466.7 185.5 466.7 200.3C466.7 215.1 454.7 227.1 439.9 227.1C425.1 227.1 413.1 215.1 413.1 200.3zM542.8 227.5C541.1 191.6 532.9 159.8 506.6 133.6C480.4 107.4 448.6 99.2 412.7 97.4C375.7 95.3 264.8 95.3 227.8 97.4C192 99.1 160.2 107.3 133.9 133.5C107.6 159.7 99.5 191.5 97.7 227.4C95.6 264.4 95.6 375.3 97.7 412.3C99.4 448.2 107.6 480 133.9 506.2C160.2 532.4 191.9 540.6 227.8 542.4C264.8 544.5 375.7 544.5 412.7 542.4C448.6 540.7 480.4 532.5 506.6 506.2C532.8 480 541 448.2 542.8 412.3C544.9 375.3 544.9 264.5 542.8 227.5zM495 452C487.2 471.6 472.1 486.7 452.4 494.6C422.9 506.3 352.9 503.6 320.3 503.6C287.7 503.6 217.6 506.2 188.2 494.6C168.6 486.8 153.5 471.7 145.6 452C133.9 422.5 136.6 352.5 136.6 319.9C136.6 287.3 134 217.2 145.6 187.8C153.4 168.2 168.5 153.1 188.2 145.2C217.7 133.5 287.7 136.2 320.3 136.2C352.9 136.2 423 133.6 452.4 145.2C472 153 487.1 168.1 495 187.8C506.7 217.3 504 287.3 504 319.9C504 352.5 506.7 422.6 495 452z"/></svg>
+              Instagram
+            </a>
+          </li>
+          <li>
+            <a href="https://alibenhamza331-eng.github.io/alibenhamza-dev" target="_blank" rel="noopener noreferrer">
+              <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" aria-hidden="true"><path d="M384 64C366.3 64 352 78.3 352 96C352 113.7 366.3 128 384 128L466.7 128L265.3 329.4C252.8 341.9 252.8 362.2 265.3 374.7C277.8 387.2 298.1 387.2 310.6 374.7L512 173.3L512 256C512 273.7 526.3 288 544 288C561.7 288 576 273.7 576 256L576 96C576 78.3 561.7 64 544 64L384 64zM144 160C99.8 160 64 195.8 64 240L64 496C64 540.2 99.8 576 144 576L400 576C444.2 576 480 540.2 480 496L480 416C480 398.3 465.7 384 448 384C430.3 384 416 398.3 416 416L416 496C416 504.8 408.8 512 400 512L144 512C135.2 512 128 504.8 128 496L128 240C128 231.2 135.2 224 144 224L224 224C241.7 224 256 209.7 256 192C256 174.3 241.7 160 224 160L144 160z"/></svg>
+              Developer: Ali Benhamza
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div>
+        <h4 data-i18n="footer.contact">Contact</h4>
+        <p><a href="tel:0522266160">05 22 26 61 60</a></p>
+        <p>Bd Rachidi, Casablanca</p>
+      </div>
+    </div>
+
+    <p class="copyright">
+      <span id="year"></span> Le Bistronome - <span data-i18n="footer.rights">Tous droits reserves.</span>
+    </p>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
