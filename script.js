@@ -26,7 +26,7 @@ const translations = {
     },
     metrics: {
       rating: "Satisfaction client",
-      price: "Budget moyen / personne",
+      phone: "Réservation rapide",
       opening: "Lun-Sam"
     },
     signature: {
@@ -69,7 +69,7 @@ const translations = {
       title: "Une expérience visuelle qui ouvre l'appétit",
       c1: "Saumon fumé, toasts croustillants",
       c2: "Foie gras, touche sucrée-salée",
-      c3: "Café espresso en finale",
+      c3: "Soupe gratinée maison",
       c4: "Dessert framboise maison"
     },
     reviews: {
@@ -92,7 +92,6 @@ const translations = {
       subtitle: "Appelez le restaurant ou ouvrez l'itinéraire en un clic.",
       addressLabel: "Adresse",
       phoneLabel: "Téléphone",
-      priceLabel: "Prix moyen",
       route: "Voir l'itinéraire"
     },
     hours: {
@@ -142,7 +141,7 @@ const translations = {
     },
     metrics: {
       rating: "Guest satisfaction",
-      price: "Average budget / person",
+      phone: "Quick booking",
       opening: "Mon-Sat"
     },
     signature: {
@@ -185,7 +184,7 @@ const translations = {
       title: "A visual experience that opens the appetite",
       c1: "Smoked salmon, crispy toasts",
       c2: "Foie gras with sweet-and-savory balance",
-      c3: "Final espresso",
+      c3: "Homemade gratinated soup",
       c4: "Homemade raspberry dessert"
     },
     reviews: {
@@ -208,7 +207,6 @@ const translations = {
       subtitle: "Call the restaurant or open directions in one click.",
       addressLabel: "Address",
       phoneLabel: "Phone",
-      priceLabel: "Average price",
       route: "Open directions"
     },
     hours: {
@@ -258,7 +256,7 @@ const translations = {
     },
     metrics: {
       rating: "رضا الزوار",
-      price: "متوسط السعر / للشخص",
+      phone: "حجز سريع",
       opening: "الاثنين - السبت"
     },
     signature: {
@@ -301,7 +299,7 @@ const translations = {
       title: "تجربة بصرية تفتح الشهية",
       c1: "سلمون مدخن وتوست مقرمش",
       c2: "فوا غرا بتوازن حلو ومالح",
-      c3: "إسبريسو في الختام",
+      c3: "شوربة غراتينيه منزلية",
       c4: "حلوى توت العليق المنزلية"
     },
     reviews: {
@@ -324,7 +322,6 @@ const translations = {
       subtitle: "اتصل بالمطعم أو افتح الاتجاهات بنقرة واحدة.",
       addressLabel: "العنوان",
       phoneLabel: "الهاتف",
-      priceLabel: "متوسط السعر",
       route: "عرض الاتجاهات"
     },
     hours: {
